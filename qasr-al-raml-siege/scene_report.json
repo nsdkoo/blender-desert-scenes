@@ -1,0 +1,23 @@
+{
+  "scene": "QASR AL RAML | The Last Amber Light",
+  "objects": 8541,
+  "soldiers": {
+    "attackers": 30,
+    "defenders": 20,
+    "poses": {
+      "strike": 7,
+      "sword": 14,
+      "spear": 12,
+      "fallen": 4,
+      "climb": 6,
+      "archer": 7
+    }
+  },
+  "resolution": [
+    1920,
+    1200
+  ],
+  "engine": "CYCLES",
+  "device": "GPU",
+  "external_assets": 0
+}

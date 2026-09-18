@@ -1,0 +1,13 @@
+# Blender 工程文件体积较大（坦克场景含打包贴图约 71 MB），
+# 仓库里保留可复现的生成脚本，工程文件按需另行获取。
+*.blend
+*.blend1
+*.blend2
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 构建与渲染日志
+*.log

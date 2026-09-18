@@ -1,0 +1,49 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "objects": 2452,
+  "mesh_objects": 2370,
+  "track_links": 158,
+  "materials": 25,
+  "packed_images": {
+    "goegap_4k.hdr": true,
+    "namaqualand_boulder_02_diff.png": true,
+    "namaqualand_boulder_02_nor_gl.png": true,
+    "namaqualand_boulder_02_rough.png": true,
+    "quiver_tree_01_leaf_diff.png": true,
+    "quiver_tree_01_leaf_nor_gl.png": true,
+    "quiver_tree_01_leaf_rough.png": true,
+    "quiver_tree_01_trunk_diff.png": true,
+    "quiver_tree_01_trunk_nor_gl.png": true,
+    "quiver_tree_01_trunk_rough.png": true,
+    "sand_diff.jpg": true,
+    "sand_normal.jpg": true,
+    "sand_rough.jpg": true,
+    "wild_rooibos_bush_alpha.png": true,
+    "wild_rooibos_bush_diff.png": true,
+    "wild_rooibos_bush_nor_gl.png": true,
+    "wild_rooibos_bush_rough.png": true
+  },
+  "camera": "Camera · hero three-quarter",
+  "resolution": [
+    3200,
+    2000
+  ],
+  "renderer": "CYCLES",
+  "samples": 96,
+  "renders": {
+    "desert_tiger_hero.png": {
+      "resolution": [
+        3200,
+        2000
+      ],
+      "bytes": 7807920
+    },
+    "desert_tiger_detail.png": {
+      "resolution": [
+        2400,
+        1600
+      ],
+      "bytes": 4861176
+    }
+  }
+}
