@@ -42,9 +42,25 @@ The vehicle is an artistic reconstruction inspired by an early Tiger I in North 
 
 辅助脚本：`verify_scene.py` 输出场景校验统计（即上面的 `verification.json`），`inspect_assets.py` 检查外部素材，`panorama_preview.py` 生成全景预览。
 
+## 工程文件
+
+完整工程 `desert_tiger.blend` 为 71,852,821 字节，内含打包的照片级贴图与 4K HDR 环境贴图。仓库里以 `parts/` 下的三个分片存放，下载后合并还原：
+
+```bash
+# macOS / Linux
+cat parts/desert_tiger.blend.part-* > desert_tiger.blend
+```
+
+```bat
+:: Windows cmd
+copy /b parts\desert_tiger.blend.part-a + parts\desert_tiger.blend.part-b + parts\desert_tiger.blend.part-c desert_tiger.blend
+```
+
+还原后的文件可以直接用 Blender 打开，材质、贴图、灯光与相机全部在位。
+
 ## 使用
 
-用 Blender 打开工程文件，小键盘 `0` 进入主相机，`Z` 切到 Material Preview 查看材质，`F12` 渲染当前相机。
+用 Blender 打开 `desert_tiger.blend`，小键盘 `0` 进入主相机，`Z` 切到 Material Preview 查看材质，`F12` 渲染当前相机。工程文件内所有贴图与 HDR 环境均已打包，不依赖外部路径。
 
 ```powershell
 & 'C:\Program Files\Blender Foundation\Blender 5.2\blender.exe' --background --factory-startup --python '.\scripts\build_scene.py'

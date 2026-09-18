@@ -1,13 +1,15 @@
-# Blender 工程文件体积较大（坦克场景含打包贴图约 71 MB），
-# 仓库里保留可复现的生成脚本，工程文件按需另行获取。
-*.blend
-*.blend1
-*.blend2
-
 # Python 缓存
 __pycache__/
 *.pyc
 *.pyo
 
+# Blender 自动备份文件
+*.blend1
+*.blend2
+
 # 构建与渲染日志
 *.log
+
+# 坦克场景的完整工程文件体积较大（约 71 MB），仓库里以
+# tiger-i-desert-1943/parts/ 下的分片形式存放，合并命令见该目录 README。
+tiger-i-desert-1943/desert_tiger.blend

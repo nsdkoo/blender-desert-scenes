@@ -37,14 +37,20 @@ Two desert-themed still scenes built entirely with Blender Python scripting — 
 blender-desert-scenes/
 ├── tiger-i-desert-1943/
 │   ├── README.md
-│   ├── renders/          # 成品渲染图
-│   └── scripts/          # 场景生成 → 细化 → 打磨 → 渲染 全流程脚本
+│   ├── desert_tiger.blend   # 可编辑工程文件，含打包贴图与 4K HDR 环境
+│   ├── verification.json    # 场景校验统计
+│   ├── assets/              # 外部素材来源与授权
+│   ├── renders/             # 成品渲染图
+│   └── scripts/             # 场景生成 → 细化 → 打磨 → 渲染 全流程脚本
 └── qasr-al-raml-siege/
     ├── README.md
-    ├── preview_hd.png    # 成品渲染图
-    ├── scene_report.json # 实际生成统计
-    └── *.py              # 场景生成脚本
+    ├── qasr_al_raml.blend   # 可编辑工程文件
+    ├── preview_hd.png       # 成品渲染图
+    ├── scene_report.json    # 实际生成统计
+    └── *.py                 # 场景生成脚本
 ```
+
+两个工程文件都可以直接用 Blender 打开，材质、贴图、灯光、相机全部在位。想从头复现就用各自目录下的脚本依次执行。
 
 ## 说明
 
